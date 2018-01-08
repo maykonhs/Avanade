@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gama Avanade Angular Assignment</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/stylecadastro.css">
+</head>
+<body>
+  <div class="container" id="main">
+
+    <div class="row mx-auto" id="divLogin">
+
+
+      <div id="divCadastroPrincipal" class="col-4">
+        <div id="divCadastro">
+          <div class="text-center">
+            <small id="smallCadastro">Já tem login?</small>
+          </div>
+          <div class="text-center">
+            <a href="../login/index.html"><button class="btn btn-primary bg-success" type="submit" id="btnCadastro">Entrar
+            </button></a>
+          </div>
+          
+        </div>
+      </div>
+
+
+      <form id="formLogin" class="col-8">
+
+        <p class="font-weight-bold">Cadastre-se</p>
+        <div class="form-group">
+          <label for="inputUsuario">Usuário</label>
+          <input type="text" name="usuario" class="form-control" id="inputUsuario" placeholder="Usuário">
+          <small id="erroUsuario" class="text-danger invisivel erro">Usuário Inválido.</small>
+        </div>
+
+        <div class="form-group">
+          <label for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email">
+          <small id="emailHelp" class="form-text text-muted">Nós não compartilhamos seu e-mail com terceiros.</small>
+          <small id="erroEmail" class="text-danger invisivel erro">Email Inválido.</small>
+        </div>
+
+        <div class="form-group">
+          <label for="inputSenha">Senha</label>
+          <input type="password" name="senha" id="inputSenha" class="form-control" placeholder="Senha">
+          <small id="erroSenha" class="text-danger invisivel erro">Senha Inválida.</small>
+        </div>
+
+        <div class="form-group">
+          <label for="dropdownGrupo">Estado</label>
+          <div class="btn-group" role="group" id="dropdownGrupo">
+            <div class="dropdown">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                UF
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">SP</a>
+                <a class="dropdown-item" href="#">RO</a>
+                <a class="dropdown-item" href="#">RJ</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Cidade
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">São Paulo</a>
+                <a class="dropdown-item" href="#">Rondônia</a>
+                <a class="dropdown-item" href="#">Rio de Janeiro</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="checkbox">
+          <label><input type="checkbox" value="">Aceito receber emails profissionais</label>
+        </div>
+
+        <div class="text-center">
+          <button class="btn btn-primary bg-success" type="submit" id="btnCadastrar">Confirmar cadastro</button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="../js/indexcadastro.js"></script>
+</body>
+</html>

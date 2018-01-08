@@ -1,0 +1,41 @@
+#btnCadastrar {
+	width: 15rem;
+	border-radius: 30px;
+}
+
+#btnCadastro {
+	width: 10rem;
+	border-radius: 30px;
+}
+
+#main {
+	background-color: #191970;
+}
+
+#divLogin {
+	padding: 25px;
+	height: 600px;
+}
+
+#formLogin {
+	background-color: white;
+	padding: 10px;
+}
+
+#divCadastroPrincipal {
+	background-color: #4169E1;
+}
+
+#divCadastro {
+	padding-top: 200px;
+	padding-left: 30px;
+}
+
+#smallCadastro {
+	color: white;
+	padding-left: 30px;
+}
+
+.invisivel {
+	visibility: hidden;
+}
